@@ -1,0 +1,155 @@
+{
+  "annexure": "Annexure A - Program Outcomes, Program Specific Outcomes & Bloom's Revised Taxonomy",
+  "program": "Bachelor of Technology in Computer Science & Engineering",
+  "accreditationBoard": "NBA (National Board of Accreditation) & Washington Accord / ABET Aligned",
+  "programOutcomes": [
+    {
+      "code": "PO1",
+      "title": "Engineering Knowledge",
+      "focus": "Mathematical & Engineering Fundamentals",
+      "statement": "Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems."
+    },
+    {
+      "code": "PO2",
+      "title": "Problem Analysis",
+      "focus": "Formulation & Research Literature",
+      "statement": "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences."
+    },
+    {
+      "code": "PO3",
+      "title": "Design/Development of Solutions",
+      "focus": "System Design & Public Health/Safety",
+      "statement": "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."
+    },
+    {
+      "code": "PO4",
+      "title": "Conduct Investigations of Complex Problems",
+      "focus": "Experimental Analysis & Synthesis",
+      "statement": "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."
+    },
+    {
+      "code": "PO5",
+      "title": "Modern Tool Usage",
+      "focus": "IT & Engineering Tool Modeling",
+      "statement": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations."
+    },
+    {
+      "code": "PO6",
+      "title": "The Engineer and Society",
+      "focus": "Societal & Legal Responsibilities",
+      "statement": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice."
+    },
+    {
+      "code": "PO7",
+      "title": "Environment and Sustainability",
+      "focus": "Ecological & Sustainable Context",
+      "statement": "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development."
+    },
+    {
+      "code": "PO8",
+      "title": "Ethics",
+      "focus": "Professional Norms & Integrity",
+      "statement": "Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice."
+    },
+    {
+      "code": "PO9",
+      "title": "Individual and Team Work",
+      "focus": "Multidisciplinary Collaboration",
+      "statement": "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."
+    },
+    {
+      "code": "PO10",
+      "title": "Communication",
+      "focus": "Technical Documentation & Presentation",
+      "statement": "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
+    },
+    {
+      "code": "PO11",
+      "title": "Project Management and Finance",
+      "focus": "Resource Optimization & Execution",
+      "statement": "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+    },
+    {
+      "code": "PO12",
+      "title": "Life-long Learning",
+      "focus": "Continuous Technological Adaptation",
+      "statement": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+    }
+  ],
+  "programSpecificOutcomes": [
+    {
+      "code": "PSO1",
+      "title": "System Architecture & Foundations",
+      "focus": "Core Algorithms & Computer Systems",
+      "statement": "Analyze, design, and develop scalable algorithmic foundations, computer architectures, and high-performance system software to solve computing challenges."
+    },
+    {
+      "code": "PSO2",
+      "title": "Intelligent Software & Data Engineering",
+      "focus": "AI, ML, and Applied Data Pipelines",
+      "statement": "Apply machine learning, data engineering, and modern software paradigms to architect robust, secure, and data-driven intelligent applications."
+    },
+    {
+      "code": "PSO3",
+      "title": "Cloud, Security & Industry Practice",
+      "focus": "DevOps, Security Compliance & Scale",
+      "statement": "Deploy enterprise-grade cloud native platforms adhering to cybersecurity protocols, regulatory compliance, and agile software development lifecycle standards."
+    }
+  ],
+  "bloomsLevels": [
+    {
+      "level": "L1",
+      "name": "Remembering",
+      "descriptor": "Retrieving, recognizing, and recalling relevant knowledge from long-term memory.",
+      "actionVerbs": [
+        "Define", "List", "State", "Recall", "Identify", "Name", "Describe", "Recognize", "Match", "Select"
+      ]
+    },
+    {
+      "level": "L2",
+      "name": "Understanding",
+      "descriptor": "Constructing meaning from instructional messages, including oral, written, and graphic communication.",
+      "actionVerbs": [
+        "Explain", "Summarize", "Paraphrase", "Classify", "Interpret", "Compare", "Exemplify", "Illustrate", "Infer"
+      ]
+    },
+    {
+      "level": "L3",
+      "name": "Applying",
+      "descriptor": "Carrying out or using a procedure through executing, or implementing.",
+      "actionVerbs": [
+        "Apply", "Implement", "Compute", "Solve", "Demonstrate", "Execute", "Construct", "Calculate", "Modify"
+      ]
+    },
+    {
+      "level": "L4",
+      "name": "Analyzing",
+      "descriptor": "Breaking material into constituent parts, determining how parts relate to one another and to an overall structure.",
+      "actionVerbs": [
+        "Analyze", "Differentiate", "Deconstruct", "Examine", "Distinguish", "Organize", "Investigate", "Trace"
+      ]
+    },
+    {
+      "level": "L5",
+      "name": "Evaluating",
+      "descriptor": "Making judgments based on criteria and standards through checking and critiquing.",
+      "actionVerbs": [
+        "Evaluate", "Critique", "Assess", "Validate", "Appraise", "Judge", "Verify", "Defend", "Prioritize"
+      ]
+    },
+    {
+      "level": "L6",
+      "name": "Creating",
+      "descriptor": "Putting elements together to form a coherent or functional whole; reorganizing elements into a new pattern.",
+      "actionVerbs": [
+        "Design", "Architect", "Formulate", "Synthesize", "Develop", "Generate", "Devise", "Construct", "Compose"
+      ]
+    }
+  ],
+  "correlationScales": [
+    { "value": 0, "symbol": "-", "label": "No Correlation", "description": "Course Outcome does not address this Program Outcome" },
+    { "value": 1, "symbol": "1", "label": "Slight / Low", "description": "Slight correlation (approx. 5-25% curriculum or assessment weight)" },
+    { "value": 2, "symbol": "2", "label": "Moderate / Medium", "description": "Substantial alignment (approx. 25-50% curriculum or assessment weight)" },
+    { "value": 3, "symbol": "3", "label": "Substantial / High", "description": "Direct, critical alignment (>50% curriculum or assessment weight)" }
+  ]
+}

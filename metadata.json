@@ -1,0 +1,6 @@
+{
+  "name": "Academic Review & Specification Studio",
+  "description": "Accreditation review workspace and curriculum specification studio with CO-PO articulation matrix, Bloom's taxonomy mapping, and AI syllabus auditing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

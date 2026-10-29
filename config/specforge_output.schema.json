@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SpecForgeCourseSpecificationOutput",
+  "type": "object",
+  "required": [
+    "courseCode",
+    "courseTitle",
+    "credits",
+    "courseOutcomes",
+    "modules",
+    "matrix",
+    "complianceScore",
+    "complianceStatus"
+  ],
+  "properties": {
+    "courseCode": { "type": "string" },
+    "courseTitle": { "type": "string" },
+    "department": { "type": "string" },
+    "semester": { "type": "string" },
+    "regulation": { "type": "string" },
+    "credits": {
+      "type": "object",
+      "required": ["L", "T", "P", "C"],
+      "properties": {
+        "L": { "type": "number" },
+        "T": { "type": "number" },
+        "P": { "type": "number" },
+        "C": { "type": "number" }
+      }
+    },
+    "totalContactHours": { "type": "number" },
+    "prerequisites": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "description": { "type": "string" },
+    "courseOutcomes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "statement", "bloomsLevel", "targetAttainment"],
+        "properties": {
+          "code": { "type": "string" },
+          "statement": { "type": "string" },
+          "bloomsLevel": { "type": "string", "enum": ["L1", "L2", "L3", "L4", "L5", "L6"] },
+          "targetAttainment": { "type": "number" },
+          "deliveryMethods": { "type": "array", "items": { "type": "string" } },
+          "assessmentMethods": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["moduleNo", "title", "hours", "topics", "outcomesAddressed", "bloomFocus"],
+        "properties": {
+          "moduleNo": { "type": "number" },
+          "title": { "type": "string" },
+          "hours": { "type": "number" },
+          "topics": { "type": "array", "items": { "type": "string" } },
+          "outcomesAddressed": { "type": "array", "items": { "type": "string" } },
+          "bloomFocus": { "type": "string" }
+        }
+      }
+    },
+    "matrix": {
+      "type": "object",
+      "description": "Mapping from Course Outcome (e.g. CO1) to object of Program Outcomes and values (0-3)"
+    },
+    "complianceScore": { "type": "number", "minimum": 0, "maximum": 100 },
+    "complianceStatus": {
+      "type": "string",
+      "enum": ["Accreditation Ready", "Needs Minor Revision", "Major Deficiencies Detected"]
+    },
+    "recommendations": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
